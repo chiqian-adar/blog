@@ -326,7 +326,7 @@ background-color:#a660b7;
 #blog .sider {
 	float:right;
 	width: 260px;
-	height:100%;
+	height:50%;
 }
 #blog .search {
 	background-color:#fff;
@@ -462,7 +462,7 @@ text-align: center;
 	margin-top:10px;
 	background-color:#fff;
 	width:100%;
-	height:200px;
+	height:205px;
 	box-sizing:border-box;
 	padding:15px;
 	font-family:myfont;
