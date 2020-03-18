@@ -1,0 +1,46 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background-color:#fff;
+}
+#header, #footer{
+	width:100%;  background: #666;height:30px;clear:both;
+}
+#bd{
+    padding-left:150px;
+    padding-right:190px;	 
+ }
+.left{
+	 background:#e79f6d;
+	 width:150px;
+	 float:left;
+	 margin-left:-100%; /*margin-left为负值会向左移，当移超过自身长度时会往上移，-100%会到上一行的左边*/
+	 /*when padding of bd bave done */
+
+	 /*双飞布局*/
+	/* position:relative;
+	 left:-150px;*/
+
+ }
+ .main{
+	 background:#d6d6d6;
+	 width:100%;
+	 float:left;
+ }
+.right{
+	 background:#77bbdd;
+	 width:190px;
+	 float:left;
+	 margin-left:-190px;/*刚好负自身的长度*/
+	 /*when padding of bd bave done */
+	 /*双飞布局*/
+	 /*
+	 position:relative;
+	 left:190px;*/
+ }
+.main .inner{
+	margin-left:150px;
+	margin-right:190px;
+}
